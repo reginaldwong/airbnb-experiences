@@ -2,7 +2,12 @@ import React from "react"
 
 const Hero = () => {
     return (
-        <h1>Hero</h1>
+        <section className="hero">
+            <img src="src/assets/photo-grid.png" alt="photo grid" className="hero--photo"/>
+            <h1 className="hero--title">Online Experiences</h1>
+            <p className="hero--description">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
+            </p>
+        </section>
     )
 }
 
