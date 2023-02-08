@@ -76,8 +76,8 @@ select {
 body {
   font-family: Poppins, sans-serif;
 }
-/* 
-* {
+
+/* * {
   border: 1px solid red;
 } */
 
@@ -105,9 +105,13 @@ nav {
   color: inherit;
 }
 
+.nav--items > li > a:hover {
+  color: #FE395C;
+}
+
 /* HERO */
 section {
-  padding: 60px;;
+  padding: 60px;
 }
 
 .hero {
@@ -126,3 +130,17 @@ section {
   margin-bottom: 16px;
 }
 
+
+/* CARD */
+
+.card--stats {
+  display: flex;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
