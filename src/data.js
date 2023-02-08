@@ -49,7 +49,7 @@ export default [
     title: "Group Meditation",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-    price: 40,
+    price: 15,
     coverImg: "meditation.jpg",
     stats: {
       rating: 4.8,
@@ -76,7 +76,7 @@ export default [
   },
   {
     id: 6,
-    title: "Painting",
+    title: "Painting Classes",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
     price: 45,
@@ -91,7 +91,7 @@ export default [
   },
   {
     id: 7,
-    title: "Studio",
+    title: "Create your own Song",
     description:
       "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
     price: 75,
@@ -103,5 +103,20 @@ export default [
     location: "Texas",
     openSpots: 3,
     host: "Peter",
+  },
+  {
+    id: 8,
+    title: "Explore the Deserts",
+    description:
+      "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+    price: 95,
+    coverImg: "dunebuggy.jpg",
+    stats: {
+      rating: 4.5,
+      reviewCount: 183,
+    },
+    location: "Marrakech",
+    openSpots: 3,
+    host: "James",
   },
 ];
