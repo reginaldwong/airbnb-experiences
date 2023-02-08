@@ -107,6 +107,9 @@ nav {
 
 .nav--items > li > a:hover {
   color: #FE395C;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* HERO */
@@ -152,20 +155,42 @@ section {
 
 .card--stats {
   display: flex;
+  align-items: center;
   margin-top: 9px;
+}
+
+.card--stats--rating {
+  font-size: 1rem;
+  padding-right: 3px;
+}
+
+.card--stats--location {
+  margin-left: auto;
+}
+
+.card--stats--star {
+  padding-right: 3px;
+  height: 13px;
 }
 
 .card--title {
-  font-size: 1rem;
-  margin-top: 9px;
+  font-size: .9rem;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.card--host {
+  font-size: .9rem;
+  margin-top: 0px;
 }
 
 .card--price {
-  margin-top: 9px;
+  margin-top: 0px;
 }
 
 .gray {
   color: #918E9B;
+  font-size: .75rem;
 }
 
 .bold {

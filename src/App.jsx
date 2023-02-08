@@ -16,10 +16,10 @@ function App() {
         review={item.stats.reviewCount}
         location={item.location}
         title={item.title} 
+        host={item.host}
       />
     )
   })
-
 
   return (
     <div className="App">

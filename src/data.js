@@ -8,10 +8,11 @@ export default [
     coverImg: "cycling.jpg",
     stats: {
       rating: 4.7,
-      reviewCount: 6,
+      reviewCount: 267,
     },
     location: "Berlin",
     openSpots: 0,
+    host: "John",
   },
   {
     id: 2,
@@ -21,11 +22,12 @@ export default [
     price: 50,
     coverImg: "pottery.jpg",
     stats: {
-      rating: 5.0,
-      reviewCount: 30,
+      rating: 4.4,
+      reviewCount: 102,
     },
     location: "Norway",
     openSpots: 27,
+    host: "Patricia",
   },
   {
     id: 3,
@@ -35,11 +37,12 @@ export default [
     price: 35,
     coverImg: "climbing.jpg",
     stats: {
-      rating: 4.8,
-      reviewCount: 2,
+      rating: 4.9,
+      reviewCount: 345,
     },
     location: "Toronto",
     openSpots: 3,
+    host: "Sudhir",
   },
   {
     id: 4,
@@ -50,10 +53,11 @@ export default [
     coverImg: "meditation.jpg",
     stats: {
       rating: 4.8,
-      reviewCount: 2,
+      reviewCount: 204,
     },
     location: "Online",
     openSpots: 3,
+    host: "Lekan",
   },
   {
     id: 5,
@@ -63,11 +67,12 @@ export default [
     price: 50,
     coverImg: "planting.jpg",
     stats: {
-      rating: 4.8,
-      reviewCount: 2,
+      rating: 4.7,
+      reviewCount: 248,
     },
     location: "Copenhagen",
     openSpots: 3,
+    host: "Marie",
   },
   {
     id: 6,
@@ -77,11 +82,12 @@ export default [
     price: 45,
     coverImg: "painting.jpg",
     stats: {
-      rating: 4.8,
-      reviewCount: 2,
+      rating: 4.3,
+      reviewCount: 189,
     },
-    location: "Toronto",
+    location: "Malmo",
     openSpots: 3,
+    host: "Oleksandr",
   },
   {
     id: 7,
@@ -91,10 +97,11 @@ export default [
     price: 75,
     coverImg: "studio.jpg",
     stats: {
-      rating: 4.8,
-      reviewCount: 2,
+      rating: 4.5,
+      reviewCount: 156,
     },
-    location: "Online",
+    location: "Texas",
     openSpots: 3,
+    host: "Peter",
   },
 ];

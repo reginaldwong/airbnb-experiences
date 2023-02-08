@@ -3,7 +3,7 @@ import React from "react"
 const Navbar = () => {
     return (
         <nav>
-            <img src="src/assets/airbnb-logo.png" alt="airbnb logo" className="nav--logo" />
+            <a href="https://github.com/reginaldwong" target="_blank"><img src="src/assets/airbnb-logo.png" alt="airbnb logo" className="nav--logo" /></a>
             <ul className="nav--items">
                 <li><a href="/">About</a></li>
                 <li><a href="/">Experiences</a></li>
