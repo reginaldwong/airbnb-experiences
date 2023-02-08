@@ -77,9 +77,9 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 /* NAVBAR */
 
@@ -136,6 +136,7 @@ section {
 .cards-list {
   display: flex;
   gap: 20px;
+  padding-top: 0;
 }
 
 .card {
@@ -151,6 +152,16 @@ section {
 
 .card--stats {
   display: flex;
+  margin-top: 9px;
+}
+
+.card--title {
+  font-size: 1rem;
+  margin-top: 9px;
+}
+
+.card--price {
+  margin-top: 9px;
 }
 
 .gray {
