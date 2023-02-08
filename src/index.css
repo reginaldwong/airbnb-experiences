@@ -77,9 +77,9 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 /* NAVBAR */
 
@@ -132,6 +132,22 @@ section {
 
 
 /* CARD */
+
+.cards-list {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card--image {
+  width: 276px;
+  height: 325px;
+  border-radius: 9px;
+  object-fit: cover;
+}
 
 .card--stats {
   display: flex;
