@@ -19,6 +19,7 @@ function App() {
         title={item.title} 
         host={item.host}
         openSpots={item.openSpots}
+        staffPick={item.staffPick}
       />
     )
   })

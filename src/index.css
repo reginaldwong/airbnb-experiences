@@ -158,6 +158,18 @@ section {
   font-weight: bold;
 }
 
+.card--staff {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background-color: #68c3a3;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+}
+
+
 .card--image {
   width: 276px;
   height: 325px;

@@ -13,6 +13,7 @@ export default [
     location: "Berlin",
     openSpots: 4,
     host: "John",
+    staffPick: true,
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export default [
     location: "Norway",
     openSpots: 27,
     host: "Patricia",
+    staffPick: false,
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export default [
     location: "Toronto",
     openSpots: 0,
     host: "Sudhir",
+    staffPick: false,
   },
   {
     id: 4,
@@ -58,6 +61,7 @@ export default [
     location: "Online",
     openSpots: 3,
     host: "Lekan",
+    staffPick: false,
   },
   {
     id: 5,
@@ -73,6 +77,7 @@ export default [
     location: "Copenhagen",
     openSpots: 3,
     host: "Marie",
+    staffPick: false,
   },
   {
     id: 6,
@@ -88,6 +93,7 @@ export default [
     location: "Malmo",
     openSpots: 3,
     host: "Oleksandr",
+    staffPick: false,
   },
   {
     id: 7,
@@ -103,6 +109,7 @@ export default [
     location: "Texas",
     openSpots: 3,
     host: "Peter",
+    staffPick: true,
   },
   {
     id: 8,
@@ -118,6 +125,7 @@ export default [
     location: "Marrakech",
     openSpots: 3,
     host: "James",
+    staffPick: false,
   },
   {
     id: 9,
@@ -133,6 +141,7 @@ export default [
     location: "Iceland",
     openSpots: 3,
     host: "Louis",
+    staffPick: false,
   },
   {
     id: 10,
@@ -148,5 +157,6 @@ export default [
     location: "New York",
     openSpots: 3,
     host: "Alex",
+    staffPick: true,
   },
 ];

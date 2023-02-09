@@ -3,7 +3,8 @@ import React from "react"
 const Card = (props) => {
     return (
         <div className="card">
-            {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+            {props.openSpots === 0 && <div className="card--badge">Sold Out!</div>}
+            {props.staffPick && <div className="card--staff">Staff Pick!</div>}
             <img src={`src/assets/${props.image}`} className="card--image" />
             <div className="card--stats">
                 <img src="src/assets/star.png" alt="star" className="card--stats--star"/>
