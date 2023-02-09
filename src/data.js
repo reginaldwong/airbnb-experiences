@@ -11,7 +11,7 @@ export default [
       reviewCount: 267,
     },
     location: "Berlin",
-    openSpots: 0,
+    openSpots: 4,
     host: "John",
   },
   {
@@ -41,7 +41,7 @@ export default [
       reviewCount: 345,
     },
     location: "Toronto",
-    openSpots: 3,
+    openSpots: 0,
     host: "Sudhir",
   },
   {

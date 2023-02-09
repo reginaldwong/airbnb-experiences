@@ -145,6 +145,17 @@ section {
 .card {
   margin-bottom: 20px;
   flex: 0 0 auto;
+  position: relative;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-weight: bold;
 }
 
 .card--image {

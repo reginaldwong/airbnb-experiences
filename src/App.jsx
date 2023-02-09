@@ -18,6 +18,7 @@ function App() {
         location={item.location}
         title={item.title} 
         host={item.host}
+        openSpots={item.openSpots}
       />
     )
   })
