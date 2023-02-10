@@ -45,7 +45,7 @@ export default [
     location: "Toronto",
     openSpots: 0,
     host: "Sudhir",
-    staffPick: false,
+    staffPick: true,
   },
   {
     id: 4,
@@ -139,7 +139,7 @@ export default [
       reviewCount: 232,
     },
     location: "Iceland",
-    openSpots: 3,
+    openSpots: 0,
     host: "Louis",
     staffPick: false,
   },

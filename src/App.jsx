@@ -11,15 +11,7 @@ function App() {
     return (
       <Card
         key={item.id}
-        price={item.price}
-        image={item.coverImg}
-        rating={item.stats.rating}
-        review={item.stats.reviewCount}
-        location={item.location}
-        title={item.title} 
-        host={item.host}
-        openSpots={item.openSpots}
-        staffPick={item.staffPick}
+        item={item}
       />
     )
   })
