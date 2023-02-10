@@ -5,7 +5,7 @@ const Card = (props) => {
         <div className="card">
             {props.item.openSpots === 0 && <div className="card--badge">Sold Out!</div>}
             {props.item.staffPick && <div className="card--staff">Staff Pick!</div>}
-            <img src={`src/assets/${props.item.coverImg}`} className="card--image" />
+            <img src={`src/assets/${props.item.coverImg}`} className="card--image" alt={props.item.alt}/>
             <div className="card--stats">
                 <img src="src/assets/star.png" alt="star" className="card--stats--star"/>
                 <span className="card--stats--rating">{props.item.stats.rating}</span>

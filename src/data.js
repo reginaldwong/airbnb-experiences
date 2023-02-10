@@ -14,6 +14,7 @@ export default [
     openSpots: 4,
     host: "John",
     staffPick: true,
+    alt: "person on bicycle riding a gravel trail alongside a mountain",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ export default [
     openSpots: 27,
     host: "Patricia",
     staffPick: false,
+    alt: "woman making a clay pot",
   },
   {
     id: 3,
@@ -46,6 +48,7 @@ export default [
     openSpots: 0,
     host: "Sudhir",
     staffPick: true,
+    alt: "woman climbing on wall during daytime",
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ export default [
     openSpots: 3,
     host: "Lekan",
     staffPick: false,
+    alt: "woman meditating during sunrise",
   },
   {
     id: 5,
@@ -78,6 +82,7 @@ export default [
     openSpots: 3,
     host: "Marie",
     staffPick: false,
+    alt: "man repotting a houseplant",
   },
   {
     id: 6,
@@ -94,6 +99,7 @@ export default [
     openSpots: 3,
     host: "Oleksandr",
     staffPick: false,
+    alt: "girl painting watercolor",
   },
   {
     id: 7,
@@ -110,6 +116,7 @@ export default [
     openSpots: 3,
     host: "Peter",
     staffPick: true,
+    alt: "man staring at computer in music studio",
   },
   {
     id: 8,
@@ -126,6 +133,7 @@ export default [
     openSpots: 3,
     host: "James",
     staffPick: false,
+    alt: "people riding dune buggies on brown sand during daytime",
   },
   {
     id: 9,
@@ -142,6 +150,7 @@ export default [
     openSpots: 0,
     host: "Louis",
     staffPick: false,
+    alt: "people climbing up white snowy mountain",
   },
   {
     id: 10,
@@ -158,5 +167,6 @@ export default [
     openSpots: 3,
     host: "Alex",
     staffPick: true,
+    alt: "large theatre",
   },
 ];
