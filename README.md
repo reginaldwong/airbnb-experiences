@@ -48,3 +48,6 @@ The data for the experiences is stored in the data.js file in the data/ director
 
 ## Deployment
 To deploy the page, run `npm run` build to create a production build of the page. The production build can then be served using a static file server or deployed to a hosting platform.
+
+## Demo
+View live demo: https://extraordinary-dango-704873.netlify.app/
